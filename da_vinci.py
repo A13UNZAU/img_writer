@@ -11,6 +11,10 @@ import time
 import os
 import pathlib
 
+'''
+Use thread-pool libraries from http://github/kim.kiogora
+'''
+
 from PIL import Image, ImageFont, ImageDraw
 from urllib.request import urlretrieve
 from ast import literal_eval
